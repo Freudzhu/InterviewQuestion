@@ -1,9 +1,5 @@
 package com.interview;
-class TreeNode{
-	int data;
-	TreeNode left;
-	TreeNode right;
-}
+
 
 public class cc4dot1 {
 	
@@ -48,6 +44,9 @@ public class cc4dot1 {
 		return 1 + Math.min(maxDepth(root.left), maxDepth(root.right));
 		
 	}
-	
-
+}
+class TreeNode{
+	int data;
+	TreeNode left;
+	TreeNode right;
 }
