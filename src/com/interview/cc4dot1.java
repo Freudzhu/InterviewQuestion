@@ -50,4 +50,10 @@ class TreeNode{
 	TreeNode left;
 	TreeNode right;
 	public TreeNode parent;
+	public TreeNode(){
+		
+	}
+	public TreeNode(int data){
+		this.data =  data;
+	}
 }
